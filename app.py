@@ -1,5 +1,7 @@
 import streamlit as st
-st.image("thao.npg", width=150)
+from PIL import Image
+img = Image.open("thao.png")
+st.image(img, width=150)
 # Tiêu đề app
 st.title("Ứng dụng tính thuế thu nhập cá nhân_VuThanhThao")
 
