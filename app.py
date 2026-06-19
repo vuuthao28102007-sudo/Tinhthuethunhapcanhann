@@ -1,7 +1,7 @@
 import streamlit as st
-
+st.image("thao.npg", width=150)
 # Tiêu đề app
-st.title("Ứng dụng tính thuế thu nhập cá nhân")
+st.title("Ứng dụng tính thuế thu nhập cá nhân_VuThanhThao")
 
 st.write("Nhập thông tin để tính số thuế phải nộp")
 
